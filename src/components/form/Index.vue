@@ -41,7 +41,9 @@
             onClick() {
                 this.$refs.loginForm.validate(isValid => {
                     if(isValid) {
-                        console.log()
+                        this.$create(Notice, {
+                           title: '校验成功',
+                       }).show()
                     } else {
                        this.$create(Notice, {
                            title: '校验失败',

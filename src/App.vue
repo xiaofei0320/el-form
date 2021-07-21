@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <Form/>
+    <Form />
   </div>
 </template>
 
 <script>
-import Form from './components/form/Index.vue'
+import Form from "./components/form/Index.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Form
-  }
-}
+    Form,
+  },
+};
 </script>
 
 <style>
